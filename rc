@@ -1,0 +1,4 @@
+REPO="https://raw.githubusercontent.com/CorPID01/MEMEK/main/"
+
+
+wget -O /root/.config/rclone/rclone.conf "${REPO}LT/config/conf/rclone.conf"

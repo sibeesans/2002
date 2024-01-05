@@ -20,8 +20,8 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="-1002030911878"
-KEY="6414883775:AAG-XwXGSYqHpCoDMJbCZxLc3n-GYK0XN-o"
+CHATID="5641321832"
+KEY="5621227316:AAFp_SxXGwD9NE0HgSBCU0sP4fsJmuo1YzE"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 # ===================
 clear
@@ -35,10 +35,9 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To LunaticTunneling ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To SibeeStore ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}CorpIDR2 ${NC}${YELLOW}(${NC} ${green} CorpIDR2 Tunnel${NC}${YELLOW})${NC}"
-echo -e " © Recode By My CorpIDR2 Tunneling${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "  Auther : ${green}SibeeStore ${NC}${YELLOW}(${NC} ${green} SibeeStore${NC}${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -98,9 +97,9 @@ clear
 #########################
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/CorPID01/regist/main/afk | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/sibeesans/regist/main/afk | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/CorPID01/regist/main/afk | grep $MYIP | awk '{print $3}')
+expx=$(curl https://raw.githubusercontent.com/sibeesans/regist/main/afk | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 # DETAIL ORDER
 username=$(cat /usr/bin/user)
@@ -120,11 +119,11 @@ datediff() {
 }
 mai="datediff "$Exp" "$DATE""
 
-# Status ExpiRED Active | Geo Project
+# Status ExpiRED Active | sibeesans Project
 Info="(${green}Active${NC})"
 Error="(${RED}ExpiRED${NC})"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl https://raw.githubusercontent.com/CorPID01/regist/main/afk | grep $MYIP | awk '{print $4}')
+Exp1=$(curl https://raw.githubusercontent.com/sibeesans/regist/main/afk | grep $MYIP | awk '{print $4}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
@@ -134,7 +133,7 @@ echo -e "\e[32mloading...\e[0m"
 clear
 
 ####### // REPOSITORY    🇮🇩🇮🇩🇮🇩
-    REPO="https://raw.githubusercontent.com/CorPID01/MEMEK/main/"
+    REPO="https://raw.githubusercontent.com/sibeesans/2002/main/"
     
 ###### // START INSTALLATION 🇮🇩🇮🇩🇮🇩
 start=$(date +%s)
@@ -313,8 +312,8 @@ clear
 clear
 # // CHANGE PASSWORD DEFAULT
 restart_system() {
-    USRSC=$(wget -qO- https://raw.githubusercontent.com/CorPID01/regist/main/afk | grep $ipsaya | awk '{print $2}')
-    EXPSC=$(wget -qO- https://raw.githubusercontent.com/CorPID01/regist/main/afk | grep $ipsaya | awk '{print $3}')
+    USRSC=$(wget -qO- https://raw.githubusercontent.com/sibeesans/regist/main/afk | grep $ipsaya | awk '{print $2}')
+    EXPSC=$(wget -qO- https://raw.githubusercontent.com/sibeesans/regist/main/afk | grep $ipsaya | awk '{print $3}')
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
@@ -596,7 +595,7 @@ systemctl restart trip
 systemctl enable trip
 #SERVICE LIMIT QUOTA
 
-# // SERVICE UDP-MINI 🇮🇩🇮🇩🇮🇩🇮🇩
+# // SERVICE UDP-MINI
 mkdir -p /usr/local/kyt/
 wget -q -O /usr/local/kyt/udp-mini "${REPO}LT/config/service/udp-service/udp-mini"
 chmod +x /usr/local/kyt/udp-mini

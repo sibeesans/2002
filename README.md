@@ -1,7 +1,7 @@
 
 
 ### INSTALL SCRIPT 
-<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/CorPID01/MEMEK/main/go/LT.sh && chmod +x LT.sh && ./LT.sh
+<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/sibeesans/2002/main/go/LT.sh && chmod +x LT.sh && ./LT.sh
 </code></pre>
 
 ### PERINTAH UPDATE 

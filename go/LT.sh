@@ -35,7 +35,7 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To SibeeStore ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To SibeeStores ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
 echo -e "  Auther : ${green}SibeeStore ${NC}${YELLOW}(${NC} ${green} SibeeStore${NC}${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
